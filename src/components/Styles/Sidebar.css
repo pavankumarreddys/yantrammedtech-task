@@ -1,0 +1,38 @@
+.side-bar-main-container {
+    background-color: #023F80;
+    min-height: 90vh;
+    border-radius: 8px;
+    min-width: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-ul {
+    list-style-type: none;
+    padding: 8px;
+    color: #FFFFFF;
+}
+
+.sidebar-li-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically center */
+    /* background-color: gray; */
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.sidebar-li {
+    font-size: 18px;
+    margin: 0; /* Remove any default margin */
+    padding: 8px; /* Add padding to create space around the text */
+    color: white; /* Set text color */
+}
+
+.hr-line-style{
+    border: 2px solid white;
+}
+.sidebar-click-color{
+    background-color: #F59706;
+}

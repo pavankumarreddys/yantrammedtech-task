@@ -1,0 +1,145 @@
+
+/* 49B6FF skyblue */
+
+
+
+
+
+.home-main-container {
+    background-color: #F1EBEB;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.first-main-container {
+    background-color: #023F80;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px ;
+}
+
+.today-button {
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 2px;
+    border: 2px solid #F59706;
+    border-radius: 12px;
+    font-size: 27px;
+    padding: 4px;
+    width: 110px;
+    font-weight: bold;
+}
+.date-white-container {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+   
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.vertical-line {
+    width: 3px; 
+    height: 60px;
+    background-color: gray; 
+    margin: 0 12px;
+    border: 1px solid gray;
+}
+
+.bar-chart-main-container{
+    background-color:#FFFFFF;
+   border-radius: 20px;
+}
+.bar-chart-sub-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.barchar-ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.dot-green{
+    height: 15px;
+    width: 15px;
+    border: 1px solid green;
+    border-radius: 100%;
+    background-color: green;
+    margin-right: 3px;
+}
+
+.dot-orange{
+    height: 15px;
+    width: 15px;
+    border: 1px solid orange;
+    border-radius: 100%;
+    background-color: orange;
+    margin-right: 3px;
+
+}
+
+.dot-blue{
+    height: 15px;
+    width: 15px;
+    border: 1px solid skyblue;
+    border-radius: 100%;
+    background-color:skyblue;
+    margin-right: 3px;
+
+}
+
+.expired-product-main-container{
+
+}
+
+.expired-product-container{
+    background-color:skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.expired-product-container-data{
+background-color: #FFFFFF;
+padding-bottom: 15px;
+}
+.three-ites-headings{
+    display: flex;
+    justify-content: space-between;
+}
+.three-items-data{
+    display: flex;
+    justify-content: space-between;
+}
+.lowstock-color{
+    background-color: #B2CAEA;
+}
+
+.Out-of-stock{
+    background-color: #F35757;
+}
+
+.in-stock-main-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.upload-btn{
+    background-color:#023F80;
+    padding: 2px;
+    color: white;
+}
+.ordered-buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px;
+}
